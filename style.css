@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+/* cabeçalho */
+header{
+    background-color: #102a43;
+    color: white;
+    padding: 15px 30px;
+}
+.conteudo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+h1{
+    margin: 0;
+    font-size: 29px;
+    color: red;
+}
+nav{
+    display: flex;
+    gap: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.logo img{
+    width: 190px;
+    height: 105px;
+    object-fit: contain;
+}nav a:hover{
+    color: turquoise;
+}
